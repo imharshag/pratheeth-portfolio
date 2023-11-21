@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=   , initial-scale=1.0">
+    <title>PORT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aa1ab75be8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.png" class="logo" >
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Fields</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+    <div>
+
+    <div class="header-text">
+        <p>Welcome</p>
+        <h1>I Am a Front-End Developer</h1>
+    </div>
+
+    </div>
+</div>
+
+<!-- ------About------ -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="images/WhatsApp Image 2023-10-24 at 4.54.33 PM.jpeg">  
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Greetings! I am a dedicated data science student on a mission to unravel the fascinating stories hidden within vast 
+                    datasets. Armed with a strong foundation in mathematics, statistics, and programming, I navigate the world of data 
+                    with both curiosity and precision. From wrangling messy datasets to constructing predictive models, I find immense 
+                    satisfaction in solving complex problems and extracting meaningful insights. My academic journey is complemented by
+                    hands-on experience in real-world projects, where I've been honing my skills in machine learning, data visualization, and 
+                    exploratory data analysis. I thrive on the intersection of data and innovation, always eager to explore new 
+                    techniques and technologies that propel the field forward.
+                </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <!-- <p class="tab-links" onclick="opentab('Experience')">Experience</p> -->
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div> 
+
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li> <span>Web Program</span><br>HTML,CSS,JS</li>
+                    <li> <span>Languages</span><br>C,C++,Java,Python</li>
+                     <li> <span>DBMS</span><br>SQL,mysql</li>
+                </ul>
+            </div>
+
+            <!-- ----------
+            
+            <div class="tab-contents" id="">
+                <ul>
+                    <li> <span>Dying light2</span><br>Kerbal Space Program2</li>
+                    <li> <span>Dying light2</span><br>Kerbal Space Program2</li>
+                    <li> <span>Dying light2</span><br>Kerbal Space Program2</li>
+                </ul>
+            </div>
+
+        -->
+
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li> <span>School</span><br>Bensons Medium High School</li>
+                    <li> <span>PUC</span><br>Mahathma Gandhi Vishwast Mandal</li>
+                    <li> <span>Engineering</span><br>JSS Science And Technology</li>
+                </ul>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ------Sevices------ -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="servises-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience. User experience is central to the web designing process. Websites have an array of elements presented in ways that make them easy to navigate.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>SQL</h2>
+                <p>Structured query language (SQL) is a programming language for storing and processing information in a relational database. A relational database stores information in tabular form, with rows and columns representing different data attributes and the various relationships between the data values.</p>
+
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-terminal"></i>
+                <h2>Coding</h2>
+                <p>Coding is a list of step-by-step instructions that get computers to do what you want them to do. Coding makes it possible for us to create computer software, games, apps and websites. Coders, or programmers, are people who write the programmes behind everything we see and do on a computer</p>
+
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- potfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/web-programming-languages.jpg" alt="">
+                <div class="layer">
+                    <h3>Web Programming</h3>
+                    <p>Web programming involves creating web pages, web applications, and other online content that can be displayed in a web browser</p>
+                    <a href="https://github.com/NoiseBridge7"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/2.jpg" alt="">
+                <div class="layer">
+                    <h3>Database Management</h3>
+                    <p>A database management system (DBMS) is system software for creating and managing databases. A DBMS makes it possible for end users to create, protect, read, update and delete data in a database.</p>
+                    <a href="https://github.com/NoiseBridge7"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/coding.jpg" alt="">
+                <div class="layer">
+                    <h3>Coding Projects</h3>
+                    <p>Several C & C++ related projects implementing dsa technique to solve problems and write projects</p>
+                    <a href="https://github.com/NoiseBridge7"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- ---contact---- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>   noisebridge03@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>  9481106257</p>
+                <div class="social-icons">
+                    <a href="https://github.com/NoiseBridge7"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/noisebridge20?igshid=YTQwZjQ0NmI0OA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pratheeth-udupa-467495292/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume.pdf" target=”_blank” attribute class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>  
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu()
+    {
+        sidemenu.style.right = "0"
+    }
+
+    function closemenu()
+    {
+        sidemenu.style.right = "-200px"
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzNw-SptBs8FRn9EbMSBfVED_gohYF-m6mjIIjS9VwhuiFM9t3u-sqN58yhi2Vuu2AMkQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => 
+        {
+            msg.innerHTML = "Message Sent Succesfully"
+            setTimeout(function()
+            {
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
